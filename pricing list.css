@@ -1,0 +1,105 @@
+body {
+    font-family:'Roboto', sans-serif;
+}
+.pricing-list {
+    padding: 100px 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.pricing-list .container header {
+    text-align: center;
+}
+.pricing-list .container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #444 ;
+}
+.pricing-list .container h2 {
+    font-size: 16px;
+    color: #777;
+    padding: 10px 0 40px 0;
+}
+.pricing-list .pricing-table {
+    margin: 0 auto;
+    border-spacing: 30px 10px;
+}
+.pricing-list .pricing-table h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #444;
+    padding: 0 25px;
+}
+.pricing-list .pricing-table .list2 h3 {
+    color: #fff;
+}
+.pricing-list .pricing-table p {
+    font-size: 13px;
+    color: #777;
+    padding: 10px 25px 40px;
+}
+.pricing-list .pricing-table .list2 p {
+    color: #fff;
+}
+.pricing-list .pricing-table span {
+    font-size: 30px;
+    font-weight: 700;}
+
+.pricing-list .pricing-table>* {
+    border: 1px solid #999;
+    display: table-cell;
+    border-spacing: 10px 20px;
+    padding: 60px 10px;
+    text-align: left;
+    width: 1200px;
+}
+.pricing-table li {
+    display: block;
+    color: #333;
+    margin: 20px 10px ;
+    padding-left: 15px;
+}
+.pricing-list .pricing-table .list2 {
+    border: 1px solid #005bea;
+    background-color: #005bea;
+}
+.pricing-list .pricing-table .list2 li {
+    color: #fff;
+}
+ .pricing-list .pricing-table ul li::before {
+    content: '\2714';
+    display: inline-block;
+    color: #25d25e;
+    padding-right: 10px;
+}
+.pricing-list .pricing-table .list1 ul li:nth-child(4)::before {
+    content: '\2716';
+    color: red;  
+}
+.pricing-list .pricing-table .button {
+    border: 1px solid #005bea;
+    color: #fff;
+    background-color: #005bea;
+    border-radius: 25px;
+    width: 120px;
+    line-height: 45px;
+    margin:  40px 0  0 25px;
+}
+.pricing-list .pricing-table .list2 .button {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #333;   
+}
+.pricing-list a {
+    text-decoration: none;
+    color: #fff;
+    margin: 25px;
+    font-size: 16px;
+}
+.pricing-list .pricing-table .list2 .button a {
+    color: #333;
+}
+
+
+    
