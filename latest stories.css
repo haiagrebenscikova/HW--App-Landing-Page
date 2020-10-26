@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.heading {
+    text-align: center;
+    padding: 50px 0;
+}
+.heading h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #444;
+    padding: 10px 0;
+}
+.heading h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: 230px;    
+}
+.container img {
+    width: 330px;
+}
+.container .row {
+    width: 330px;
+    height: 450px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-top: -20px;
+}
+.container .row .box {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    vertical-align: middle;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-25px);
+}
+.container .row svg {
+    fill: #005bea;
+    vertical-align: middle;
+    padding: 0 0 5px 10px;
+}
+.container .row h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #555;
+    padding: 15px 0;
+}
+.container .row p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #777;
+    padding-bottom: 15px;
+}
+.container .row .button {
+    border: 1px solid #005bea;
+    background-color: #005bea;
+    border-radius: 100px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.container .row a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+.container .row .button:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+
